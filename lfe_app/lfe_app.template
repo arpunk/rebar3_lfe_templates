@@ -1,0 +1,13 @@
+{description, "LFE Application"}.
+{variables, [
+    {name, "my_lfe_app", "Name of the application"},
+    {desc, "An LFE Application", "Short description of the app"}
+]}.
+
+{template, "lfe_app.app.src.tpl", "{{name}}/src/{{name}}.app.src"}.
+{template, "lfe_app.lfe.tpl", "{{name}}/src/{{name}}.lfe"}.
+{template, "lfe_app_app.lfe.tpl", "{{name}}/src/{{name}}-app.lfe"}.
+{template, "lfe_app_sup.lfe.tpl", "{{name}}/src/{{name}}-sup.lfe"}.
+{template, "lfe_app_rebar.config.tpl", "{{name}}/rebar.config"}.
+{template, "lfe_app_gitignore.tpl", "{{name}}/.gitignore"}.
+{template, "lfe_app_README.md.tpl", "{{name}}/README.md"}.

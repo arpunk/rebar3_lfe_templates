@@ -1,0 +1,16 @@
+{description, "LFE Release"}.
+{variables, [
+    {name, "my_lfe_release", "Name of the application"},
+    {desc, "An LFE Release", "Short description of the app"}
+]}.
+
+{template, "lfe_release.app.src.tpl", "{{name}}/apps/{{name}}/src/{{name}}.app.src"}.
+{template, "lfe_release.lfe.tpl", "{{name}}/apps/{{name}}/src/{{name}}.lfe"}.
+{template, "lfe_release_app.lfe.tpl", "{{name}}/apps/{{name}}/src/{{name}}-app.lfe"}.
+{template, "lfe_release_sup.lfe.tpl", "{{name}}/apps/{{name}}/src/{{name}}-sup.lfe"}.
+{template, "lfe_release_rebar.config.tpl", "{{name}}/rebar.config"}.
+{template, "lfe_release_gitignore.tpl", "{{name}}/.gitignore"}.
+{template, "lfe_release_README.md.tpl", "{{name}}/README.md"}.
+
+{template, "lfe_release_sys.config.tpl", "{{name}}/config/sys.config"}.
+{template, "lfe_release_vm.args.tpl", "{{name}}/config/vm.args"}.

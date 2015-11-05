@@ -1,0 +1,17 @@
+.rebar3
+rebar3
+_*
+.eunit
+*.o
+*.beam
+*.plt
+.erlang.cookie
+ebin
+log
+erl_crash.dump
+.rebar
+_rel
+_deps
+_plugins
+_tdeps
+logs

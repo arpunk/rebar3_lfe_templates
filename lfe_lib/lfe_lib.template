@@ -6,6 +6,7 @@
 
 {template, "lfe_lib.app.src.tpl", "{{name}}/src/{{name}}.app.src"}.
 {template, "lfe_lib.lfe.tpl", "{{name}}/src/{{name}}.lfe"}.
+{template, "lfe_lib_unit_tests.lfe.tpl", "{{name}}/test/unit-{{name}}-tests.lfe"}.
 {template, "lfe_lib_rebar.config.tpl", "{{name}}/rebar.config"}.
 {template, "lfe_lib_gitignore.tpl", "{{name}}/.gitignore"}.
 {template, "lfe_lib_README.md.tpl", "{{name}}/README.md"}.

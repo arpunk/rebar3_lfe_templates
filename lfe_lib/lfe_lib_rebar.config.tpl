@@ -2,7 +2,7 @@
 {lfe_first_files, []}.
 
 {deps, [
-    {lfe, {git, "git://github.com/rvirding/lfe", {tag, "1.0.2"}}}
+    {lfe, {git, "git://github.com/rvirding/lfe", {tag, "1.1.1"}}}
 ]}.
 
 {plugins, [

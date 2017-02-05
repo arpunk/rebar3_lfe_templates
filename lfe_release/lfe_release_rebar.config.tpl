@@ -26,9 +26,10 @@
     {eunit_compile_opts, [
       {src_dirs, ["test", "src"]}
       ]},
-    {deps, [
-      {ltest, ".*", {git, "git://github.com/lfex/ltest.git", {tag, "0.9.0"}}}]}
-      ]}
+    {ct_compile_opts, [
+      {src_dirs, ["test", "src"]}
+      ]},
+    {deps, [ltest]}
   ]}]
 }.
 

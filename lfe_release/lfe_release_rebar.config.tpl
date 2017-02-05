@@ -1,7 +1,7 @@
 {erl_opts, [debug_info]}.
 {lfe_first_files, []}.
 
-{deps, []}.
+{deps, [lfe]}.
 
 {plugins, [
     {'lfe-compile', {git, "https://github.com/lfe-rebar3/compile.git", {tag, "0.5.0"}}},

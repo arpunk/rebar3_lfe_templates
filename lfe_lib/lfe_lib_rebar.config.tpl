@@ -3,9 +3,7 @@
 
 {deps, [lfe]}.
 
-{plugins, [
-    {'lfe-compile', {git, "https://github.com/lfe-rebar3/compile.git", {tag, "0.5.0"}}}
-]}.
+{plugins, [{'lfe-compile', "0.8.0-rc3", {pkg, rebar3_lfe_compile}}]}.
 
 {provider_hooks, [
   {pre, [{compile, {lfe, compile}}]}
@@ -22,7 +20,7 @@
 
   {doc, [
     {plugins, [
-      {lodox, {git, "https://github.com/lfe-rebar3/lodox.git", {tag, "0.15.1"}}}
+      {lodox, {git, "https://github.com/lfe-rebar3/lodox.git", {tag, "0.16.2"}}}
       ]}
     ]}
   ]}.

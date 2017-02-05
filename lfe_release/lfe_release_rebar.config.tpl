@@ -20,7 +20,7 @@
     ]},
 
   {prod, [{relx, [{dev_mode, false},
-                  {include_erts, true}]},
+                  {include_erts, true}]}]},
 
   {test, [
     {eunit_compile_opts, [
@@ -29,9 +29,8 @@
     {ct_compile_opts, [
       {src_dirs, ["test", "src"]}
       ]},
-    {deps, [ltest]}
-  ]}]
-}.
+    {deps, [ltest]}]}
+]}.
 
 {relx, [{release, {'{{ name }}', "0.0.1"},
          ['{{ name }}',

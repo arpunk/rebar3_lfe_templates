@@ -17,7 +17,7 @@
     {ct_compile_opts, [
       {src_dirs, ["test", "src"]}
       ]},
-    {deps, [ltest]},
+    {deps, [ltest]}]},
 
   {doc, [
     {plugins, [

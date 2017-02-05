@@ -6,7 +6,10 @@ A set of basic rebar3 templates for LFE applications.
 ## Setup
 
 * Install rebar3
-* Copy the templates to `$HOME/.config/rebar3/templates`
+* Copy the templates to `$HOME/.config/rebar3/templates`:
+```sh
+$ make
+```
 
 ## Use
 

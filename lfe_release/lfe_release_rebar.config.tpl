@@ -34,6 +34,7 @@
 
 {relx, [{release, {'{{ name }}', "0.0.1"},
          ['{{ name }}',
+          lfe,
           sasl]},
 
         {sys_config, "./config/sys.config"},

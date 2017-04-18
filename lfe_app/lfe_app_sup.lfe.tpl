@@ -25,4 +25,7 @@
 ;;; Supervisor callbacks
 
 (defun init [_args]
-  `#(ok #(#(one_for_one 0 1) ())))
+  (let [(flags #M(strategy one_for_one
+                  intensity 1
+                  period 5))]
+    `#(ok #(,flags ()))))

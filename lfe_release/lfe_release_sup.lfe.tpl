@@ -15,16 +15,16 @@
 
 ;;; API functions
 
-(defun server-name ()
+(defun server-name []
   '{{ name }}-sup)
 
-(defun start_link ()
+(defun start_link []
   (supervisor:start_link
     `#(local ,(server-name)) (MODULE) '()))
 
 ;;; Supervisor callbacks
 
-(defun init (_args)
+(defun init [_args]
   `#(ok #(#(one_for_one 0 1) ())))
 
 ;;; Internal functions

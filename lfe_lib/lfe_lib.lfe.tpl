@@ -8,5 +8,3 @@
   (export all))
 
 ;;; API functions
-
-;;; Internal functions

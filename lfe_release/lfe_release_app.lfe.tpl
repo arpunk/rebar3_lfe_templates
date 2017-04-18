@@ -13,10 +13,10 @@
 
 ;;; API
 
-(defun start (_type _args)
+(defun start [_type _args]
   ({{ name }}-sup:start_link))
 
-(defun stop (_state)
+(defun stop [_state]
   'ok)
 
 ;;; Internal functions

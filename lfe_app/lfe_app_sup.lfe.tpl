@@ -20,7 +20,7 @@
 
 (defun start_link []
   (supervisor:start_link
-    `#(local ,(server-name)) (MODULE) '()))
+    `#(local ,(server-name)) (MODULE) '[]))
 
 ;;; Supervisor callbacks
 
@@ -28,4 +28,4 @@
   (let [(flags #M(strategy one_for_one
                   intensity 1
                   period 5))]
-    `#(ok #(,flags ()))))
+    `#(ok #(,flags []))))

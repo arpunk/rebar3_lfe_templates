@@ -8,6 +8,7 @@
 {template, "lfe_release.lfe.tpl", "{{name}}/apps/{{name}}/src/{{name}}.lfe"}.
 {template, "lfe_release_app.lfe.tpl", "{{name}}/apps/{{name}}/src/{{name}}-app.lfe"}.
 {template, "lfe_release_sup.lfe.tpl", "{{name}}/apps/{{name}}/src/{{name}}-sup.lfe"}.
+{template, "lfe_release_SUITE.lfe.tpl", "{{name}}/apps/{{name}}/test/{{name}}-SUITE.lfe"}.
 {template, "lfe_release_unit_tests.lfe.tpl", "{{name}}/apps/{{name}}/test/unit-{{name}}-tests.lfe"}.
 {template, "lfe_release_rebar.config.tpl", "{{name}}/rebar.config"}.
 {template, "lfe_release_gitignore.tpl", "{{name}}/.gitignore"}.

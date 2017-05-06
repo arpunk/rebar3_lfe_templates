@@ -4,9 +4,12 @@
 {deps, [lfe]}.
 
 {plugins, [
+    rebar_alias,
     {'lfe-compile', "0.8.0-rc3", {pkg, rebar3_lfe_compile}},
     rebar3_run
 ]}.
+
+{alias, [{test, [eunit, {ct, "--sname ct --dir ebin"}]}]}.
 
 {provider_hooks, [
   {pre, [{compile, {lfe, compile}}]}

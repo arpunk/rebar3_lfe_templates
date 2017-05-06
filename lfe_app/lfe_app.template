@@ -9,6 +9,7 @@
 {template, "lfe_app_app.lfe.tpl", "{{name}}/src/{{name}}-app.lfe"}.
 {template, "lfe_app_sup.lfe.tpl", "{{name}}/src/{{name}}-sup.lfe"}.
 {template, "lfe_app_unit_tests.lfe.tpl", "{{name}}/test/unit-{{name}}-tests.lfe"}.
+{template, "lfe_app_SUITE.lfe.tpl", "{{name}}/test/{{name}}-SUITE.lfe"}.
 {template, "lfe_app_rebar.config.tpl", "{{name}}/rebar.config"}.
 {template, "lfe_app_gitignore.tpl", "{{name}}/.gitignore"}.
 {template, "lfe_app_README.md.tpl", "{{name}}/README.md"}.

@@ -10,5 +10,10 @@ $ rebar3 compile
 
 ## Test
 ```
-$ rebar3 eunit
+$ rebar3 test
+```
+
+## Run
+```
+$ rebar3 run
 ```

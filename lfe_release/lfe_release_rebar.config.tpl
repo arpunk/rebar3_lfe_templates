@@ -15,6 +15,10 @@
   {pre, [{compile, {lfe, compile}}]}
 ]}.
 
+{shell, [
+  {shell_args, ['tty_sl -c -e', {lfe_shell, start, []}]}
+]}.
+
 {profiles, [
   {doc, [
     {plugins, [

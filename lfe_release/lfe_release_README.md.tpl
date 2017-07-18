@@ -13,7 +13,12 @@ $ rebar3 compile
 $ rebar3 test
 ```
 
-## Run
+## REPL
+```
+$ rebar3 shell
+```
+
+## Run a release
 ```
 $ rebar3 run
 ```

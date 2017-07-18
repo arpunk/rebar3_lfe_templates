@@ -8,6 +8,11 @@ An LFE application
 $ rebar3 compile
 ```
 
+## REPL
+```
+$ rebar3 shell
+```
+
 ## Test
 ```
 $ rebar3 test

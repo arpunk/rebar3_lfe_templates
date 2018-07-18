@@ -13,7 +13,10 @@
   {'lfe-compile', "0.8.0-rc3", {pkg, rebar3_lfe_compile}}
 ]}.
 
-{alias, [{test, [eunit, {ct, "--sname ct --dir ebin"}]}]}.
+{alias, [
+  {test, [eunit, {ct, "--sname ct --dir ebin"}]},
+  {repl, [shell]}
+]}.
 
 {provider_hooks, [
   {pre, [{compile, {lfe, compile}}]},

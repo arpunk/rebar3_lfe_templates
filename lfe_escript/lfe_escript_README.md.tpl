@@ -10,7 +10,7 @@ $ rebar3 escriptize
 
 ## REPL
 ```
-$ rebar3 shell
+$ rebar3 repl
 ```
 
 ## Test

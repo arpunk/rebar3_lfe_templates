@@ -10,7 +10,7 @@ $ rebar3 compile
 
 ## REPL
 ```
-$ rebar3 shell
+$ rebar3 repl
 ```
 
 ## Test

@@ -15,7 +15,7 @@ $ rebar3 test
 
 ## REPL
 ```
-$ rebar3 shell
+$ rebar3 repl
 ```
 
 ## Run a release

@@ -8,3 +8,4 @@ copy-templates:
 	cp -r $(PWD)/lfe_app $(PREFIX)/
 	cp -r $(PWD)/lfe_lib $(PREFIX)/
 	cp -r $(PWD)/lfe_release $(PREFIX)/
+	cp -r $(PWD)/lfe_escript $(PREFIX)/

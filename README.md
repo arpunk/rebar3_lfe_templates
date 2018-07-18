@@ -13,10 +13,11 @@ $ make
 
 ## Use
 
-There are 3 templates:
+There are 4 templates:
 
 * `lfe_app`
 * `lfe_lib`
+* `lfe_escript`
 * `lfe_release`
 
 They all mimic the default rebar3 templates.

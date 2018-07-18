@@ -16,7 +16,8 @@
 ]}.
 
 {shell, [
-  {shell_args, ['tty_sl -c -e', {lfe_shell, start, []}]}
+  {shell_args, ['tty_sl -c -e', {lfe_shell, start, []}]},
+  {apps, ['{{ name }}']}
 ]}.
 
 {profiles, [
